@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CalculationTypePredefinedItems" version="2.17">
+	<Item id="630bf47b-7c28-4565-8779-379ea7dca833">
+		<Name>Больничный</Name>
+		<Code>БЛН</Code>
+		<Description>Больничный</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
+	<Item id="4ca21520-d169-42be-b59c-86bbfb053f3e">
+		<Name>Оклад</Name>
+		<Code>ОКЛ</Code>
+		<Description>Оклад</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Displaced>
+			<CalculationType>ChartOfCalculationTypes.Начисления.Больничный</CalculationType>
+		</Displaced>
+	</Item>
+	<Item id="1fd2ace3-77f2-4037-9a5f-2f0500bd3ae0">
+		<Name>ПремияПроцентомОтПродаж</Name>
+		<Code>ПРПРОЦПР</Code>
+		<Description>Премия процентом от продаж (5%)</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
+</PredefinedData>
